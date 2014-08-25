@@ -1,0 +1,18 @@
+{
+  "name": "openbox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "tester.js",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "bestbuy": "git+https://github.com/jkap/bestbuy.git",
+    "lodash": "^2.4.1",
+    "prompt": "^0.2.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
