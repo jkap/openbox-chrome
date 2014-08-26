@@ -4,9 +4,15 @@
   "description": "",
   "main": "tester.js",
   "dependencies": {
-    "bluebird": "^2.3.2",
     "bestbuy": "git+https://github.com/jkap/bestbuy.git",
+    "bluebird": "^2.3.2",
+    "body-parser": "^1.6.5",
+    "dotenv": "^0.4.0",
+    "express": "^4.8.5",
+    "express-validation": "^0.2.4",
+    "joi": "^4.6.2",
     "lodash": "^2.4.1",
+    "morgan": "^1.2.3",
     "prompt": "^0.2.13"
   },
   "devDependencies": {},
