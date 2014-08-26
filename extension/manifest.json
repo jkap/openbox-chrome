@@ -1,0 +1,15 @@
+{
+  "name": "openbox",
+  "version": "0.0",
+  "description": "adds openbox button",
+  "permissions": ["storage", "geolocation", "http://www.bestbuy.com/*", "https://www.bestbuy.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.bestbuy.com/*"],
+      "js": ["jquery.min.js", "openbox.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "manifest_version": 2,
+  "options_page": "options.html"
+}
